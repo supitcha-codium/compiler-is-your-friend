@@ -69,4 +69,5 @@ Think. Compare and contrast the:
 Question:
 1) What did you learn from this problem? Why would we want to refactor the code to be
 like the Composable implementation?
+- ได้เห็นการเปลี่ยนจากฟังก์ชั่นที่ทำงานเหมือนกันซ้ำๆกันเป็นฟังก์ชั่นเดียวที่เรียกใช้งานได้ง่าย อีกทั้งยังลด resoucre ของโปรเจค และเพิ่มประสิทธิภาพในการทำงาน
 */

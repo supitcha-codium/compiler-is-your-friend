@@ -14,9 +14,10 @@ to set the `divisor` member variable.
 
 Questions:
 1) What did you learn from this exercise?
+- การไม่กำหนดการเข้าถึงตัวแปรทำให้เกิดช่องโหว่ได้
 */
 class SafeDivisor {
-    divisor: number = 1;
+    private divisor: number = 1;
 
     setDivisor(value: number) {
         if (value == 0) {
@@ -36,3 +37,6 @@ function exploit(): number {
     sd.divisor = 0;
     return sd.divide(42); 
 }
+
+console.log(exploit());
+
